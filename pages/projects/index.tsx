@@ -19,11 +19,12 @@ const Home: NextPage = () => {
           Projects
         </h1>
         <div className="flex flex-row gap-20 flex-wrap justify-center">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <Card
               name={project.name}
               link={"/projects/" + project.slug}
               description={project.description}
+              key={index}
             />
           ))}
         </div>

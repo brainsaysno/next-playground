@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
       <Head>
-        <title>Brainsaysno's UI Playground</title>
+        <title>Brainsaysno&apos;s UI Playground</title>
         <meta name="description" content="UI Playground" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

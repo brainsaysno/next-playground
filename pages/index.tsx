@@ -1,7 +1,6 @@
 
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import Link from "next/link";
 
 const Home: NextPage = () => {
 
@@ -11,7 +10,7 @@ const Home: NextPage = () => {
         <h1 className="text-3xl font-semibold text-center py-5">
           UI Playground
         </h1>
-        <a href="/projects" className="text-center">Go to projects &rarr;</a>
+        <Link href="/projects" className="text-center">Go to projects &rarr;</Link>
       </main>
     </div>
   );
