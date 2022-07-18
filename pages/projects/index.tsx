@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     {
       name: "Subscription Selector",
       slug: "subscriptions",
-      description: "Placeholder description for subscription selector",
+      description: "A cool subscription selector mockup",
     },
   ];
 
