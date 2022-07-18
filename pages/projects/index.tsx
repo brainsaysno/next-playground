@@ -10,6 +10,11 @@ const Home: NextPage = () => {
       slug: "subscriptions",
       description: "A cool subscription selector mockup",
     },
+    {
+      name: "E-commerce product",
+      slug: "ecommerce",
+      description: "An aesthetic e-commerce product page",
+    },
   ];
 
   return (
